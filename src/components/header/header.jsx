@@ -1,19 +1,17 @@
-import { Button } from "./ui/button";
-import CV from "../assets/resume/simigiuAndreiCV.pdf";
-import { Logo } from "./logo";
+import { Button } from "../ui/button";
+import CV from "../../assets/resume/simigiuAndreiCV.pdf";
+import { Logo } from "../logo";
 import { DownloadIcon, SunIcon } from "lucide-react";
 
 export const Header = () => {
   return (
-    <header className="h-20 grid place-items-center bg-neutral-900 px-2">
+    <header className="h-20 place-items-center bg-neutral-900 px-2 hidden md:grid">
       <nav
         data-glow
         className="h-14 w-full max-w-6xl mx-auto rounded-[30px] flex items-center justify-between p-2 relative inner-shadow"
       >
         <div className="flex items-center justify-start gap-x-4">
-          <div className="w-10 h-10 bg-[#262626] rounded-full grid place-items-center border border-neutral-600 shadow-sm shadow-neutral-950">
-            <Logo />
-          </div>
+          <Logo />
           <ul className="flex items-center justify-between gap-x-4">
             <li>
               <a

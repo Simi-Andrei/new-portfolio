@@ -18,7 +18,7 @@ export const KangarooContainer = () => {
   };
 
   return (
-    <div className="flex flex-col items-center jsutify-center gap-y-2">
+    <div className="flex flex-col items-center justify-center gap-y-2">
       <div
         onMouseEnter={() => setMouseOnContainer(true)}
         onMouseLeave={() => setMouseOnContainer(false)}
