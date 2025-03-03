@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
-    <footer className="h-12 grid place-items-center border-t border-neutral-700 bg-neutral-900">
-      <p className="text-center text-sm text-neutral-300">
+    <footer className="h-12 grid place-items-center border-t border-neutral-300 dark:border-t-neutral-800 pb-24">
+      <p className="text-center text-sm">
         @{new Date().getFullYear()} Andrei Simigiu | Portfolio
       </p>
     </footer>

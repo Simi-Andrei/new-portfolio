@@ -20,14 +20,14 @@ const App = () => {
   }, []);
 
   return (
-    <div className="w-screen min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <UtilsHeader />
       <Header />
       <MobileHeader />
-      <main className="flex-1 flex flex-col w-full max-w-6xl mx-auto px-2">
+      <main className="flex-1 flex flex-col w-full max-w-6xl mx-auto px-2 md:pt-20">
         <OverviewSection />
-        {/* <MeetMeSection />
-        <CareerSection />
+        <MeetMeSection />
+        {/*<CareerSection />
         <ProjectsSection />
         <ContactSection /> */}
       </main>

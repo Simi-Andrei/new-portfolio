@@ -35,7 +35,7 @@ export const BrainContainer = () => {
         />
         <BrainIconMobile />
       </div>
-      <CogIcon className="absolute top-[20%] md:top-[16%] right-[16%] size-8 md:size-12 text-neutral-700 animate-[reverse_spin_50s_linear_infinite]" />
+      <CogIcon className="absolute top-[18%] md:top-[16%] right-[16%] size-8 md:size-12 text-neutral-700 animate-[reverse_spin_50s_linear_infinite]" />
     </div>
   );
 };

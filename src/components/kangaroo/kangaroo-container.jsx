@@ -34,7 +34,7 @@ export const KangarooContainer = () => {
       </div>
       <div
         data-glow
-        className="flex items-center justify-start gap-x-2 py-1.5 px-4 rounded-[30px] inner-shadow"
+        className="flex items-center justify-start gap-x-2 py-1.5 px-4 dark:inner-dark-shadow"
       >
         <YellowDot />
         <span className="font-medium">Ambition</span>

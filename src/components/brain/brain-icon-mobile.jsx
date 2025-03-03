@@ -3,7 +3,7 @@ export const BrainIconMobile = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 640 540"
-      className="w-full h-auto md:hidden opacity-80"
+      className="w-[90%] md:w-full mx-auto h-auto md:hidden opacity-70 dark:opacity-60"
     >
       <path
         stroke="url(#brainGradient1)"

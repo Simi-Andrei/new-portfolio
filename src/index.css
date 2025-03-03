@@ -124,26 +124,37 @@
     @apply bg-background text-foreground;
   }
 
-  .inner-shadow {
+  .dark .inner-shadow {
     @apply inset-shadow-sm inset-shadow-neutral-950;
+  }
+
+  .inner-shadow {
+    @apply inset-shadow-sm inset-shadow-neutral-300/50;
   }
 }
 
 body {
   font-family: "Inter", sans-serif;
-  color: #e5e5e5;
+  background-color: #ededed;
+  color: #262626;
+}
+
+body.dark {
   background-color: #171717;
+  color: #ededed;
 }
 
 /* Glow specific styles */
+
 [data-glow] {
-  background-color: #262626;
+  background-color: #ededed;
   background-size: calc(100% + 6px) calc(100% + 6px);
   background-position: 50% 50%;
   background-attachment: fixed;
-  border: 2px solid #404040;
+  border: 2px solid #a1a1a1;
   position: relative;
   touch-action: none;
+  border-radius: 30px;
 }
 
 [data-glow]::before,
@@ -167,7 +178,45 @@ body {
 [data-glow]::after {
   background-image: radial-gradient(
     80px 80px at calc(var(--x, 0) * 1px) calc(var(--y, 0) * 1px),
-    rgba(0, 150, 137, 0.5),
+    rgba(236, 0, 63, 0.6),
+    transparent 100%
+  );
+}
+
+/* Glow specific styles */
+
+.dark [data-glow] {
+  background-color: #262626;
+  background-size: calc(100% + 6px) calc(100% + 6px);
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  border: 2px solid #404040;
+  position: relative;
+  touch-action: none;
+}
+
+.dark [data-glow]::before,
+.dark [data-glow]::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-attachment: fixed;
+  background-size: calc(100% + 6px) calc(100% + 6px);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  mask: linear-gradient(transparent, transparent), linear-gradient(white, white);
+  mask-clip: padding-box, border-box;
+  mask-composite: intersect;
+}
+
+/* This is the spotlight */
+.dark [data-glow]::after {
+  background-image: radial-gradient(
+    80px 80px at calc(var(--x, 0) * 1px) calc(var(--y, 0) * 1px),
+    rgba(0, 150, 137, 0.6),
     transparent 100%
   );
 }
