@@ -32,7 +32,7 @@ export const ButterflyContainer = () => {
           svgContainerRef={svgContainerRef}
           mouseOnContainer={mouseOnContainer}
         />
-        <ButterflyIconMobile />
+        <ButterflyIconMobile className="lg:hidden" />
       </div>
     </div>
   );

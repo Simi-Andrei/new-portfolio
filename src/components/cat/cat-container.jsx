@@ -32,7 +32,7 @@ export const CatContainer = () => {
           svgContainerRef={svgContainerRef}
           mouseOnContainer={mouseOnContainer}
         />
-        <CatIconMobile className="md:hidden" />
+        <CatIconMobile className="lg:hidden" />
       </div>
     </div>
   );

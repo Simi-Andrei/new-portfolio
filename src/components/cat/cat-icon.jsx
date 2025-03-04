@@ -10,9 +10,11 @@ export const CatIcon = ({ cursor, svgContainerRef, mouseOnContainer }) => {
     if (svgContainerRef.current && cursor.x !== null && cursor.y !== null) {
       const containerRect = svgContainerRef.current.getBoundingClientRect();
 
-      const cxPercentage = (cursor.x / containerRect.width) * 100;
-      const cyPercentage = (cursor.y / containerRect.height) * 100;
-      setGradientCenter({ cx: `${cxPercentage}%`, cy: `${cyPercentage}%` });
+      if (containerRect.width > 0 && containerRect.height > 0) {
+        const cxPercentage = (cursor.x / containerRect.width) * 100;
+        const cyPercentage = (cursor.y / containerRect.height) * 100;
+        setGradientCenter({ cx: `${cxPercentage}%`, cy: `${cyPercentage}%` });
+      }
     }
   }, [cursor, svgContainerRef]);
 
@@ -20,7 +22,7 @@ export const CatIcon = ({ cursor, svgContainerRef, mouseOnContainer }) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 64 64"
-      className="h-[5.5rem] w-[5.5rem] hidden md:block"
+      className="h-[5.5rem] w-[5.5rem] hidden lg:block"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g

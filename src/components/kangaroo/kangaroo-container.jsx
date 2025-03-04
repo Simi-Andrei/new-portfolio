@@ -32,7 +32,7 @@ export const KangarooContainer = () => {
           svgContainerRef={svgContainerRef}
           mouseOnContainer={mouseOnContainer}
         />
-        <KangarooIconMobile />
+        <KangarooIconMobile className="lg:hidden" />
       </div>
     </div>
   );

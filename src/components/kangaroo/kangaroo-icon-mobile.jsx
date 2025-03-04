@@ -3,7 +3,7 @@ export const KangarooIconMobile = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 64 64"
-      className="h-[5.5rem] w-[5.5rem] md:hidden"
+      className="h-[5.5rem] w-[5.5rem] lg:hidden"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
