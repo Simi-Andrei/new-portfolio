@@ -19,7 +19,7 @@ export const KangarooContainer = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center gap-y-2">
+    <div className="p-5">
       <div
         onMouseEnter={() => setMouseOnContainer(true)}
         onMouseLeave={() => setMouseOnContainer(false)}
@@ -33,10 +33,6 @@ export const KangarooContainer = () => {
           mouseOnContainer={mouseOnContainer}
         />
         <KangarooIconMobile />
-      </div>
-      <div className="flex items-center justify-start gap-x-2 py-1.5 px-4 dark:inner-dark-shadow">
-        <YellowDot />
-        <span className="font-medium">Ambition</span>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import { DownloadIcon, MoonIcon, SunIcon } from "lucide-react";
 import { useState } from "react";
 
 export const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setIsDarkMode((prevMode) => !prevMode);

@@ -24,7 +24,7 @@ const App = () => {
       <UtilsHeader />
       <Header />
       <MobileHeader />
-      <main className="flex-1 flex flex-col w-full pt-14 md:pt-20">
+      <main className="flex flex-col w-full pt-14 md:pt-20">
         <OverviewSection />
         <MeetMeSection />
         {/*<CareerSection />

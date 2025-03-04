@@ -19,7 +19,7 @@ export const ButterflyContainer = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center gap-y-2">
+    <div className="p-5">
       <div
         onMouseEnter={() => setMouseOnContainer(true)}
         onMouseLeave={() => setMouseOnContainer(false)}
@@ -33,10 +33,6 @@ export const ButterflyContainer = () => {
           mouseOnContainer={mouseOnContainer}
         />
         <ButterflyIconMobile />
-      </div>
-      <div className="flex items-center justify-start gap-x-2 py-1.5 px-4 dark:inner-dark-shadow">
-        <TealDot />
-        <span className="font-medium">Passion</span>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import CV from "../../assets/resume/simigiuAndreiCV.pdf";
 import { useState } from "react";
 
 export const UtilsHeader = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setIsDarkMode((prevMode) => !prevMode);
