@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { KangarooIcon } from "./kangaroo-icon";
 import { YellowDot } from "../yellow-dot";
+import { KangarooIconMobile } from "./kangaroo-icon-mobile";
 
 export const KangarooContainer = () => {
   const svgContainerRef = useRef(null);
@@ -31,11 +32,9 @@ export const KangarooContainer = () => {
           svgContainerRef={svgContainerRef}
           mouseOnContainer={mouseOnContainer}
         />
+        <KangarooIconMobile />
       </div>
-      <div
-        data-glow
-        className="flex items-center justify-start gap-x-2 py-1.5 px-4 dark:inner-dark-shadow"
-      >
+      <div className="flex items-center justify-start gap-x-2 py-1.5 px-4 dark:inner-dark-shadow">
         <YellowDot />
         <span className="font-medium">Ambition</span>
       </div>

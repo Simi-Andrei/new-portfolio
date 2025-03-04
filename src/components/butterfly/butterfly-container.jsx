@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { ButterflyIcon } from "./butterfly-icon";
 import { TealDot } from "../teal-dot";
+import { ButterflyIconMobile } from "./butterfly-icon-mobile";
 
 export const ButterflyContainer = () => {
   const svgContainerRef = useRef(null);
@@ -31,11 +32,9 @@ export const ButterflyContainer = () => {
           svgContainerRef={svgContainerRef}
           mouseOnContainer={mouseOnContainer}
         />
+        <ButterflyIconMobile />
       </div>
-      <div
-        data-glow
-        className="flex items-center justify-start gap-x-2 py-1.5 px-4 dark:inner-dark-shadow"
-      >
+      <div className="flex items-center justify-start gap-x-2 py-1.5 px-4 dark:inner-dark-shadow">
         <TealDot />
         <span className="font-medium">Passion</span>
       </div>

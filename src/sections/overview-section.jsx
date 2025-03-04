@@ -8,7 +8,7 @@ export const OverviewSection = () => {
   return (
     <div
       id="overview"
-      className="w-full rounded-[30px] py-10 pb-24 md:pb-10 px-2 md:px-10 h-[calc(100vh-56px)] md:h-[calc(100vh-80px)] md:mt-2 flex flex-col justify-evenly"
+      className="w-full rounded-[30px] py-10 pb-24 md:pb-10 px-2 md:px-10 h-[calc(100vh-56px)] md:h-[calc(100vh-80px)] md:mt-2 flex flex-col justify-evenly max-w-6xl mx-auto"
     >
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="md:flex-1 flex flex-col items-start justify-center h-full gap-y-0 md:gap-y-2 cursor-default order-2 md:order-1">
@@ -24,7 +24,7 @@ export const OverviewSection = () => {
           </div>
           <div className="flex items-center justify-center gap-x-4 mt-8 w-full md:justify-start">
             <Button
-              className="rounded-[30px] bg-gradient-to-b from-neutral-100 via-neutral-300 to-neutral-400 text-neutral-900 hover:opacity-95 transition-opacity duration-150 !px-6 h-10 shadow-md group"
+              className="rounded-[30px] bg-gradient-to-b from-neutral-200 to-neutral-300 text-neutral-900 hover:opacity-95 transition-opacity duration-150 !px-6 h-10 shadow-none group"
               asChild
             >
               <a href="#">
@@ -34,7 +34,7 @@ export const OverviewSection = () => {
             </Button>
             <Separator orientation="vertical" className="!h-6 bg-neutral-600" />
             <Button
-              className="rounded-[30px] bg-gradient-to-b from-neutral-800 to-neutral-900 hover:opacity-95 transition-opacity duration-150 !px-6 h-10 shadow-md group text-[#ededed]"
+              className="rounded-[30px] bg-gradient-to-b from-neutral-700 to-neutral-800 hover:opacity-95 transition-opacity duration-150 !px-6 h-10 shadow-none group text-[#ededed]"
               asChild
             >
               <a href="#">

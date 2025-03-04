@@ -66,7 +66,7 @@ export const Header = () => {
         <div className="flex items-center justify-between gap-x-4">
           <Button
             onClick={toggleDarkMode}
-            className="rounded-[30px] h-9 w-9 cursor-pointer bg-[#ededed] dark:bg-[#262626] text-neutral-800 hover:bg-[#ededed] dark:text-[#ededed] shadow-none group focus-visible:outline-none"
+            className="rounded-[30px] h-9 w-9 cursor-pointer bg-[#ededed] dark:bg-[#262626] text-neutral-800 hover:bg-[#ededed] dark:text-[#ededed] shadow-none group"
           >
             {isDarkMode ? (
               <SunIcon className="size-4.5" />
@@ -76,7 +76,7 @@ export const Header = () => {
           </Button>
           <Button
             asChild
-            className="rounded-[30px] bg-gradient-to-b from-teal-800 to-teal-950 hover:opacity-95 transition-opacity duration-150 text-[#ededed] focus-visible:ring-0"
+            className="rounded-[30px] bg-gradient-to-b from-teal-800 to-teal-950 hover:opacity-95 transition-opacity duration-150 text-[#ededed]"
           >
             <a href={CV} download>
               <DownloadIcon />

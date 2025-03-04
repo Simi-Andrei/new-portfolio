@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { CatIcon } from "./cat-icon";
 import { RedDot } from "../red-dot";
+import { CatIconMobile } from "./cat-icon-mobile";
 
 export const CatContainer = () => {
   const svgContainerRef = useRef(null);
@@ -31,11 +32,9 @@ export const CatContainer = () => {
           svgContainerRef={svgContainerRef}
           mouseOnContainer={mouseOnContainer}
         />
+        <CatIconMobile className="md:hidden" />
       </div>
-      <div
-        data-glow
-        className="flex items-center justify-start gap-x-2 py-1.5 px-4 dark:inner-dark-shadow"
-      >
+      <div className="flex items-center justify-start gap-x-2 py-1.5 px-4 dark:inner-dark-shadow">
         <RedDot />
         <span className="font-medium">Curiosity</span>
       </div>
