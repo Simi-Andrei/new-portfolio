@@ -1,6 +1,5 @@
 import { useRef, useState } from "react";
 import { KangarooIcon } from "./kangaroo-icon";
-import { YellowDot } from "../yellow-dot";
 import { KangarooIconMobile } from "./kangaroo-icon-mobile";
 
 export const KangarooContainer = () => {

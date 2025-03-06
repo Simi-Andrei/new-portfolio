@@ -1,4 +1,4 @@
-import { BriefcaseIcon, HandIcon, MailIcon } from "lucide-react";
+import { BriefcaseBusinessIcon, HandIcon, MailIcon } from "lucide-react";
 import { Logo } from "../logo";
 import { PiLadderSimpleBold } from "react-icons/pi";
 import { Button } from "../ui/button";
@@ -13,7 +13,7 @@ export const MobileHeader = () => {
           variant="ghost"
           className="[&_svg:not([class*='size-'])]:size-5"
         >
-          <a href="#">
+          <a href="#meetMe">
             <HandIcon />
           </a>
         </Button>
@@ -22,7 +22,7 @@ export const MobileHeader = () => {
           variant="ghost"
           className="[&_svg:not([class*='size-'])]:size-5"
         >
-          <a href="#">
+          <a href="#career">
             <PiLadderSimpleBold />
           </a>
         </Button>
@@ -32,8 +32,8 @@ export const MobileHeader = () => {
           variant="ghost"
           className="[&_svg:not([class*='size-'])]:size-5"
         >
-          <a href="#">
-            <BriefcaseIcon />
+          <a href="#projects">
+            <BriefcaseBusinessIcon />
           </a>
         </Button>
 
@@ -42,7 +42,7 @@ export const MobileHeader = () => {
           variant="ghost"
           className="[&_svg:not([class*='size-'])]:size-5"
         >
-          <a href="#">
+          <a href="#contact">
             <MailIcon />
           </a>
         </Button>

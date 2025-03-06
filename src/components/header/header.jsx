@@ -31,7 +31,7 @@ export const Header = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#meetMe"
                 className="grid place-items-center px-3 h-9 rounded-full text-sm font-semibold"
               >
                 Meet Me
@@ -39,7 +39,7 @@ export const Header = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#career"
                 className="grid place-items-center px-3 h-9 rounded-full text-sm font-semibold"
               >
                 Career
@@ -47,7 +47,7 @@ export const Header = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#projects"
                 className="grid place-items-center px-3 h-9 rounded-full text-sm font-semibold"
               >
                 Projects
@@ -55,7 +55,7 @@ export const Header = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 className="grid place-items-center px-3 h-9 rounded-full text-sm font-semibold"
               >
                 Contact

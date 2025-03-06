@@ -1,6 +1,5 @@
 import { useRef, useState } from "react";
 import { BrainIcon } from "./brain-icon";
-import { RedDot } from "../red-dot";
 import { BrainIconMobile } from "./brain-icon-mobile";
 import { CogIcon } from "lucide-react";
 

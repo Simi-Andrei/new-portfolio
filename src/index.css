@@ -144,8 +144,14 @@ body.dark {
   color: #ededed;
 }
 
-/* Glow specific styles */
+#meetMe,
+#career,
+#projects,
+#contact {
+  scroll-margin-top: 100px;
+}
 
+/* Glow specific styles */
 [data-glow] {
   background-color: #ededed;
   background-size: calc(100% + 6px) calc(100% + 6px);
@@ -183,8 +189,7 @@ body.dark {
   );
 }
 
-/* Glow specific styles */
-
+/* Glow specific styles dark theme */
 .dark [data-glow] {
   background-color: #262626;
   background-size: calc(100% + 6px) calc(100% + 6px);

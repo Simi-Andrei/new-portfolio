@@ -27,9 +27,9 @@ const App = () => {
       <main className="flex flex-col w-full pt-14 md:pt-20">
         <OverviewSection />
         <MeetMeSection />
-        {/*<CareerSection />
+        <CareerSection />
         <ProjectsSection />
-        <ContactSection /> */}
+        <ContactSection />
       </main>
       <Footer />
     </div>

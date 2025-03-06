@@ -12,7 +12,7 @@ export const UtilsHeader = () => {
   };
 
   return (
-    <div className="md:hidden h-14 fixed top-0 left-0 w-full z-50 bg-[#ededed] dark:bg-[#171717]">
+    <div className="md:hidden h-14 fixed top-0 left-0 w-full z-50 bg-[#f5f5f5] dark:bg-[#171717]">
       <div className="size-full flex items-center justify-end px-4 gap-x-4">
         <div className="flex items-center justify-between gap-x-4">
           <Button

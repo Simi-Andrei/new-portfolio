@@ -10,7 +10,7 @@ export const TechStackMobile = () => {
   return (
     <div className="flex-1 flex flex-col gap-y-4 shrink-0 lg:hidden">
       <div className="flex items-center justify-start gap-x-4">
-        <div className="inner-shadow shadow-md shadow-black/50 border-2 border-[#525252] dark:bg-[#262626] dark:border-[#404040] rounded-[30px]">
+        <div className="inner-shadow shadow-md shadow-neutral-400 dark:shadow-neutral-950 border-2 border-[#525252] dark:bg-[#262626] dark:border-[#404040] rounded-[30px]">
           <CatContainer />
         </div>
         <div className="flex flex-col gap-y-2">
@@ -26,7 +26,7 @@ export const TechStackMobile = () => {
       </div>
       <Separator />
       <div className="flex items-center justify-start gap-x-4">
-        <div className="inner-shadow shadow-md shadow-black/50 border-2 border-[#525252] dark:bg-[#262626] dark:border-[#404040] rounded-[30px]">
+        <div className="inner-shadow shadow-md shadow-neutral-400 dark:shadow-neutral-950 border-2 border-[#525252] dark:bg-[#262626] dark:border-[#404040] rounded-[30px]">
           <KangarooContainer />
         </div>
         <div className="flex flex-col gap-y-2">
@@ -43,7 +43,7 @@ export const TechStackMobile = () => {
       </div>
       <Separator />
       <div className="flex items-center justify-start gap-x-4">
-        <div className="inner-shadow shadow-md shadow-black/50 border-2 border-[#525252] dark:bg-[#262626] dark:border-[#404040] rounded-[30px]">
+        <div className="inner-shadow shadow-md shadow-neutral-400 dark:shadow-neutral-950 border-2 border-[#525252] dark:bg-[#262626] dark:border-[#404040] rounded-[30px]">
           <ButterflyContainer />
         </div>
         <div className="flex flex-col gap-y-2">

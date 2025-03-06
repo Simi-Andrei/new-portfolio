@@ -8,9 +8,12 @@ import { YellowDot } from "../yellow-dot";
 
 export const TechStack = () => {
   return (
-    <div className="flex-1 flex-col gap-y-4 shrink-0 hidden lg:flex">
+    <div className="flex-1 flex-col justify-between shrink-0 hidden lg:flex h-[28rem]">
       <div className="flex items-center justify-start gap-x-4">
-        <div data-glow className="inner-shadow shadow-md shadow-black/50">
+        <div
+          data-glow
+          className="inner-shadow shadow-md shadow-neutral-400 dark:shadow-neutral-950"
+        >
           <CatContainer />
         </div>
         <div className="flex flex-col gap-y-2">
@@ -26,7 +29,10 @@ export const TechStack = () => {
       </div>
       <Separator />
       <div className="flex items-center justify-start gap-x-4">
-        <div data-glow className="inner-shadow shadow-md shadow-black/50">
+        <div
+          data-glow
+          className="inner-shadow shadow-md shadow-neutral-400 dark:shadow-neutral-950"
+        >
           <KangarooContainer />
         </div>
         <div className="flex flex-col gap-y-2">
@@ -43,7 +49,10 @@ export const TechStack = () => {
       </div>
       <Separator />
       <div className="flex items-center justify-start gap-x-4">
-        <div data-glow className="inner-shadow shadow-md shadow-black/50">
+        <div
+          data-glow
+          className="inner-shadow shadow-md shadow-neutral-400 dark:shadow-neutral-950"
+        >
           <ButterflyContainer />
         </div>
         <div className="flex flex-col gap-y-2">

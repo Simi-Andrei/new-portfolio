@@ -1,6 +1,5 @@
 import { useRef, useState } from "react";
 import { CatIcon } from "./cat-icon";
-import { RedDot } from "../red-dot";
 import { CatIconMobile } from "./cat-icon-mobile";
 
 export const CatContainer = () => {

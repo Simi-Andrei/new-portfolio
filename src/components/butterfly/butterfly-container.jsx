@@ -1,6 +1,5 @@
 import { useRef, useState } from "react";
 import { ButterflyIcon } from "./butterfly-icon";
-import { TealDot } from "../teal-dot";
 import { ButterflyIconMobile } from "./butterfly-icon-mobile";
 
 export const ButterflyContainer = () => {
