@@ -24,7 +24,7 @@ export const ProjectsSection = () => {
     {
       id: 1,
       image: docsCloneProject,
-      title: "NextJs 15 Docs Clone",
+      title: "NextJs 15 - Docs Clone",
       description:
         "Developed a real-time collaborative editing app similar to Google Docs, supporting multi-user editing, threaded comments, and document organization. Focused on efficient state management, and a seamless user experience.",
       stack: [
@@ -42,7 +42,7 @@ export const ProjectsSection = () => {
     {
       id: 2,
       image: slackCloneProject,
-      title: "NextJs 14 Slack Clone",
+      title: "NextJs 14 - Slack Clone",
       description:
         "Full-stack app with workspaces, channels, and direct messaging similar to Slack. Supports credential, GitHub, and Google authentication, built for real-time collaboration.",
       stack: [
