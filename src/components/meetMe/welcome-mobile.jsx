@@ -8,11 +8,12 @@ export const WelcomeMobile = () => {
       </Badge>
       <h2 className="text-center mb-6 text-2xl font-medium">Welcome!</h2>
       <p className="text-center text-[0.9rem]">
-        I'm a web developer with a passion for building seamless, full-stack
-        applications. While coding is my main focus, I also have a love for
-        design, and I enjoy creating pixel-perfect layouts and styling with
-        attention to detail. My goal is to build clean, responsive, and
-        user-friendly websites that not only work great but also look amazing.
+        I’m a web developer with a passion for building efficient and seamless
+        full-stack applications. While coding is my main focus, I also have a
+        strong eye for design and enjoy crafting pixel-perfect layouts with
+        meticulous attention to detail. My goal is to create clean, responsive,
+        and user-friendly websites that are both visually appealing and
+        highly functional.
         <br />
         <br />
         My tech stack? It's fueled by three key ingredients
