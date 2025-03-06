@@ -44,10 +44,7 @@ export const ContactMobile = () => {
   };
 
   return (
-    <div
-      data-glow
-      className="md:hidden max-w-6xl mx-auto relative py-10 pt-14 px-4 lg:px-10 flex flex-col gap-y-10 md:flex-row items-center justify-between gap-x-10 inner-shadow shadow-md shadow-neutral-400 dark:shadow-neutral-950"
-    >
+    <div className="md:hidden max-w-6xl mx-auto relative py-10 pt-14 px-4 lg:px-10 flex flex-col gap-y-10 md:flex-row items-center justify-between gap-x-10 inner-shadow shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-[30px] border-2 border-[#525252] dark:border-[#404040] bg-[#ededed] dark:bg-[#262626]">
       <Badge className="absolute top-4 left-4 cursor-default bg-teal-600 dark:bg-teal-800 text-[#ededed] font-normal">
         Contact
       </Badge>
