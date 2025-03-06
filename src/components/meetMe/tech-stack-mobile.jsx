@@ -35,9 +35,9 @@ export const TechStackMobile = () => {
             <span className="font-medium">Ambition</span>
           </div>
           <p className="text-[0.9rem]">
-            Ambition is the force behind every project I build. I strive to
-            create scalable, high-performance applications that not only meet
-            but exceed expectations.
+            Is the force behind every project I build. I strive to create
+            scalable, high-performance applications that not only meet but
+            exceed expectations.
           </p>
         </div>
       </div>
