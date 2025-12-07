@@ -17,9 +17,42 @@ export const CareerSection = () => {
                 data-glow
                 className="flex items-center justify-center w-10 h-10 rounded-[30px] shadow shrink-0 md:order-1 mr-5 md:group-even:translate-x-1/2 bg-[#ededed]"
               >
-                <HiOutlineCode className="size-4.5" strokeWidth={2.2} />
+                <HiOutlineCode
+                  className="size-4.5 text-[#262626] dark:text-[#ededed]"
+                  strokeWidth={2.2}
+                />
               </div>
               <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-teal-500 dark:border-teal-800">
+                <time className="font-semibold text-base">2025 - Present</time>
+                <div>
+                  <div className="flex items-center justify-between space-x-2 mb-1">
+                    <div className="font-bold text-lg mb-2">
+                      Frontend Software Engineer - Cognizant Netcentric
+                    </div>
+                  </div>
+                  <div className="text-sm">
+                    Frontend Software Engineer with experience in developing and
+                    maintaining modern web interfaces using HTML, CSS, and
+                    JavaScript within the Adobe Experience Manager (AEM)
+                    environment. Strong focus on building responsive,
+                    user-friendly, and performant websites, implementing
+                    reusable components, and ensuring cross-browser
+                    compatibility and accessibility. Actively collaborating with
+                    UX/UI designers and backend developers to deliver scalable,
+                    high-quality digital experiences.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+              <div
+                data-glow
+                className="flex items-center justify-center w-10 h-10 rounded-[30px] shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:ml-5 bg-[#ededed]"
+              >
+                <HiOutlineCode className="size-4.5" strokeWidth={2.2} />
+              </div>
+              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-amber-500 dark:border-amber-700">
                 <time className="font-semibold text-base">2023 - Present</time>
                 <div>
                   <div className="flex items-center justify-between space-x-2 mb-1">
@@ -37,17 +70,18 @@ export const CareerSection = () => {
                 </div>
               </div>
             </div>
+
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
               <div
                 data-glow
-                className="flex items-center justify-center w-10 h-10 rounded-[30px] shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:ml-5 bg-[#ededed]"
+                className="flex items-center justify-center w-10 h-10 rounded-[30px] shadow shrink-0 md:order-1 mr-5 md:group-even:translate-x-1/2 bg-[#ededed]"
               >
                 <HiOutlineCode
                   className="size-4.5 text-[#262626] dark:text-[#ededed]"
                   strokeWidth={2.2}
                 />
               </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-amber-500 dark:border-amber-700">
+              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-rose-500 dark:border-rose-800">
                 <time className="font-semibold text-base">2022 - 2023</time>
                 <div>
                   <div className="flex items-center justify-between space-x-2 mb-1">
@@ -63,17 +97,18 @@ export const CareerSection = () => {
                 </div>
               </div>
             </div>
+
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
               <div
                 data-glow
-                className="flex items-center justify-center w-10 h-10 rounded-full shadow shrink-0 md:order-1 mr-5 md:group-even:translate-x-1/2 bg-[#ededed]"
+                className="flex items-center justify-center w-10 h-10 rounded-full shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:ml-5 bg-[#ededed]"
               >
                 <HiOutlineCode
                   className="size-4.5 text-[#262626] dark:text-[#ededed]"
                   strokeWidth={2.2}
                 />
               </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-rose-500 dark:border-rose-800">
+              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-teal-500 dark:border-teal-800">
                 <time className="font-semibold text-base">2021 - 2022</time>
                 <div>
                   <div className="flex items-center justify-between space-x-2 mb-1">
@@ -91,14 +126,15 @@ export const CareerSection = () => {
                 </div>
               </div>
             </div>
+
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
               <div
                 data-glow
-                className="flex items-center justify-center w-10 h-10 rounded-full shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:ml-5 bg-[#ededed]"
+                className="flex items-center justify-center w-10 h-10 rounded-full shadow shrink-0 md:order-1 mr-5 md:group-even:translate-x-1/2 bg-[#ededed]"
               >
                 <BriefcaseBusinessIcon className="size-4.5 text-[#262626] dark:text-[#ededed]" />
               </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-teal-500 dark:border-teal-800">
+              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-amber-500 dark:border-amber-700">
                 <time className="font-semibold text-base">2020 - 2023</time>
                 <div>
                   <div className="flex items-center justify-between space-x-2 mb-1">
@@ -115,14 +151,15 @@ export const CareerSection = () => {
                 </div>
               </div>
             </div>
+
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
               <div
                 data-glow
-                className="flex items-center justify-center w-10 h-10 rounded-full shadow shrink-0 md:order-1 mr-5 md:group-even:translate-x-1/2 bg-[#ededed]"
+                className="flex items-center justify-center w-10 h-10 rounded-full shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:ml-5 bg-[#ededed]"
               >
                 <GraduationCapIcon className="size-4.5 text-[#262626] dark:text-[#ededed]" />
               </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-amber-500 dark:border-amber-700">
+              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-rose-500 dark:border-rose-800">
                 <time className="font-semibold text-base">2014 - 2018</time>
                 <div>
                   <div className="flex items-center justify-between space-x-2 mb-1">
@@ -137,14 +174,15 @@ export const CareerSection = () => {
                 </div>
               </div>
             </div>
+
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
               <div
                 data-glow
-                className="flex items-center justify-center w-10 h-10 rounded-full shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:ml-5 bg-[#ededed]"
+                className="flex items-center justify-center w-10 h-10 rounded-full shadow shrink-0 md:order-1 mr-5 md:group-even:translate-x-1/2 bg-[#ededed]"
               >
                 <FiFileText className="size-4.5 text-[#262626] dark:text-[#ededed]" />
               </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-rose-500 dark:border-rose-800">
+              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] flex flex-col gap-y-2 shadow-md shadow-neutral-400 dark:shadow-neutral-950 rounded-md py-4 px-2 lg:px-4 border-l-3 border-teal-500 dark:border-teal-800">
                 <time className="font-semibold text-base">2010 - 2014</time>
                 <div>
                   <div className="flex items-center justify-between space-x-2 mb-1">
